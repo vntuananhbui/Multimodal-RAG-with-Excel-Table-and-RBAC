@@ -29,14 +29,42 @@ To run this project, follow these steps:
    pip install -r requirements.txt
    ```
 
-3. **Run the Application**  
+3. **Add API Key**
+
+   To securely add your API keys, follow these steps:
+
+   1. Create a `.env` file in the project directory:
+
+      ```bash
+      touch .env
+   2. Add the following content to the .env file, replacing <your key> with your actual API keys
+      ```
+      GOOGLE_API_KEY=<your key>
+      LlamaCloud_API_KEY=<your key>
+      MultiGeminiKey=<your key>
+      GEMINI_API_KEY=<your key>
+      ```
+
+4. **Create Environment**
+      Create a new environment using .conda or .venv
+
+      ```bash
+      python -m venv env
+      #For window
+      .\env\Scripts\activate
+      #For macOS/Linux
+      source env/bin/activate
+      ```
+
+
+5. **Run the Application**  
    Start the chatbot application with Streamlit:
 
    ```bash
    streamlit run App.py
    ```
 
-4. **Access the Application**  
+6. **Access the Application**  
    Open the provided URL in your browser to start interacting with the chatbot.
 
 ---
