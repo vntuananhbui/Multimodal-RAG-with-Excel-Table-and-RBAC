@@ -279,7 +279,6 @@ Settings.llm = llm
 # Initialize LlamaParse
 parser_text = LlamaParse(result_type="text", api_key=llamaAPI_KEY)
 parser_gpt4o = LlamaParse(result_type="markdown", gpt4o_mode=True, api_key=llamaAPI_KEY)
-print("api key: ",api_key)
 # Initialize session state for conversation history
 if 'conversation' not in st.session_state:
     st.session_state.conversation = []
