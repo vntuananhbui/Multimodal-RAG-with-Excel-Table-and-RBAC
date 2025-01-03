@@ -1,0 +1,14 @@
+streamlit
+llama-index
+huggingface-hub
+presidio-analyzer
+presidio-anonymizer
+openai
+arize-phoenix
+llama-index-llms-gemini
+llama-index-embeddings-huggingface
+python-dotenv
+llama-index-multi-modal-llms-gemini
+llm-guard
+litellm
+llama-parse
