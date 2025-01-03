@@ -1,5 +1,5 @@
 
-# AI Chatbot Project
+# Multimodal RAG with Table in PDF and RBAC
 
 An AI chatbot application built with **Streamlit**, A small project uses Multimodal RAG to extract employee information from a list in a PDF file and uses Chatbot via Streamlit to ask and answer questions about that PDF file. There are 3 main roles: "Employee", "Manager", "Admin", each position will have the right to extract different information based on decentralized data.
 
